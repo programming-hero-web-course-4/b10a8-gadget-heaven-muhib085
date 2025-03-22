@@ -1,0 +1,206 @@
+[
+  {
+    "product_id": 101,
+    "product_title": "Dell XPS 13 Laptop",
+    "product_image": "https://example.com/dell-xps-13.jpg",
+    "category": "Computers",
+    "price": 1299.99,
+    "description": "Ultra-thin and lightweight laptop with a stunning 4K display.",
+    "Specification": [
+      "13.4-inch 4K UHD Display",
+      "Intel Core i7 Processor",
+      "16GB RAM",
+      "512GB SSD",
+      "Windows 11 Pro"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 102,
+    "product_title": "MacBook Air M2",
+    "product_image": "https://example.com/macbook-air-m2.jpg",
+    "category": "Computers",
+    "price": 1199.99,
+    "description": "Sleek and powerful laptop with Apple's M2 chip.",
+    "Specification": [
+      "13.6-inch Retina Display",
+      "Apple M2 Chip",
+      "8GB RAM",
+      "256GB SSD",
+      "macOS Ventura"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 103,
+    "product_title": "iPhone 15 Pro",
+    "product_image": "https://example.com/iphone-15-pro.jpg",
+    "category": "Phones",
+    "price": 999.0,
+    "description": "The latest iPhone with A17 Bionic chip and advanced camera system.",
+    "Specification": [
+      "6.1-inch Super Retina XDR Display",
+      "A17 Bionic Chip",
+      "128GB Storage",
+      "Triple 48MP Camera",
+      "5G Support"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 104,
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://example.com/galaxy-s23-ultra.jpg",
+    "category": "Phones",
+    "price": 1199.99,
+    "description": "Flagship Android phone with a 200MP camera and S Pen support.",
+    "Specification": [
+      "6.8-inch Dynamic AMOLED Display",
+      "Snapdragon 8 Gen 2",
+      "256GB Storage",
+      "200MP Camera",
+      "5G Support"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 105,
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://example.com/galaxy-watch-6.jpg",
+    "category": "Smart Watches",
+    "price": 299.99,
+    "description": "A sleek and powerful smartwatch with health and fitness tracking.",
+    "Specification": [
+      "1.4-inch AMOLED Display",
+      "Blood Oxygen Monitor",
+      "Sleep Tracking",
+      "5ATM Water Resistance",
+      "7-Day Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 106,
+    "product_title": "Apple Watch Series 8",
+    "product_image": "https://example.com/apple-watch-8.jpg",
+    "category": "Smart Watches",
+    "price": 399.99,
+    "description": "Advanced smartwatch with ECG and blood oxygen monitoring.",
+    "Specification": [
+      "1.9-inch Retina Display",
+      "ECG App",
+      "Blood Oxygen Sensor",
+      "Water Resistant",
+      "18-Hour Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 107,
+    "product_title": "Anker 65W USB-C Charger",
+    "product_image": "https://example.com/anker-65w-charger.jpg",
+    "category": "Chargers",
+    "price": 59.99,
+    "description": "Compact and fast charger compatible with laptops and phones.",
+    "Specification": [
+      "65W Power Delivery",
+      "USB-C Port",
+      "Compact Design",
+      "Compatible with MacBook, iPhone, and more",
+      "Overheat Protection"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 108,
+    "product_title": "Belkin 30W USB-C Charger",
+    "product_image": "https://example.com/belkin-30w-charger.jpg",
+    "category": "Chargers",
+    "price": 89.99,
+    "description": "Fast and reliable charger for smartphones and tablets.",
+    "Specification": [
+      "30W Power Delivery",
+      "USB-C Port",
+      "Compact Design",
+      "Compatible with iPhone, iPad, and more",
+      "Safety Certified"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 109,
+    "product_title": "RAVPower 20000mAh Power Bank",
+    "product_image": "https://example.com/ravpower-powerbank.jpg",
+    "category": "Power Banks",
+    "price": 76.99,
+    "description": "High-capacity power bank with dual USB ports for fast charging.",
+    "Specification": [
+      "20000mAh Capacity",
+      "Dual USB Outputs",
+      "18W Fast Charging",
+      "LED Battery Indicator",
+      "Compact and Portable"
+    ],
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "product_id": 110,
+    "product_title": "Anker PowerCore 10000mAh",
+    "product_image": "https://example.com/anker-powercore.jpg",
+    "category": "Power Banks",
+    "price": 90.99,
+    "description": "Compact and lightweight power bank for on-the-go charging.",
+    "Specification": [
+      "10000mAh Capacity",
+      "Single USB Output",
+      "12W Charging",
+      "Pocket-Sized Design",
+      "Safety Features"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 111,
+    "product_title": "HP Pavilion 15 Laptop",
+    "product_image": "https://example.com/hp-pavilion-15.jpg",
+    "category": "Computers",
+    "price": 799.99,
+    "description": "Affordable and reliable laptop for everyday use.",
+    "Specification": [
+      "15.6-inch Full HD Display",
+      "Intel Core i5 Processor",
+      "8GB RAM",
+      "256GB SSD",
+      "Windows 11 Home"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": 112,
+    "product_title": "Google Pixel 7 Pro",
+    "product_image": "https://example.com/pixel-7-pro.jpg",
+    "category": "Phones",
+    "price": 899.99,
+    "description": "Google's flagship phone with an exceptional camera and Tensor G2 chip.",
+    "Specification": [
+      "6.7-inch OLED Display",
+      "Tensor G2 Chip",
+      "128GB Storage",
+      "Triple 50MP Camera",
+      "5G Support"
+    ],
+    "availability": true,
+    "rating": 4.6
+  }
+]

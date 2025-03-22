@@ -7,12 +7,11 @@ import { Outlet } from "react-router-dom";
 const MainLayout = () => {
   return (
     <div>
-      <div className="p-5">
-        <div className="bg-[#9538E2] text-white pb-36 lg:px-20">
-          <Navbar></Navbar>
-          <Banner></Banner>
-        </div>
+      <div className="p-5 bg-[#09080F0D]">
+        <Navbar></Navbar>
         <Outlet></Outlet>
+      </div>
+      <div className="bg-white">
         <Footer></Footer>
       </div>
     </div>
