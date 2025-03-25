@@ -1,12 +1,18 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { LuShoppingCart } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa";
 
 const Navbar = () => {
+  const { pathname } = useLocation();
+
   return (
     <nav>
-      <div className="navbar lg:px-12">
+      <div
+        className={`navbar lg:px-12 lg:pb-7 ${
+          pathname === "/" ? "bg-[#9538E2] text-white" : ""
+        }`}
+      >
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,8 +36,26 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <Link to={"/"}>Home</Link>
-              <Link to={"/dashboard"}>Dashboard</Link>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "underline decoration-double underline-offset-4"
+                    : ""
+                }
+                to="/"
+              >
+                Home
+              </NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "underline decoration-double underline-offset-4"
+                    : ""
+                }
+                to="/dashboard"
+              >
+                Dashboard
+              </NavLink>
             </ul>
           </div>
           <Link
