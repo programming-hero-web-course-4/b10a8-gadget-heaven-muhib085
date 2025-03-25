@@ -2,7 +2,7 @@
   {
     "product_id": 101,
     "product_title": "Dell XPS 13 Laptop",
-    "product_image": "https://example.com/dell-xps-13.jpg",
+    "product_image": "https://i.ibb.co.com/hwtdmYG/Dell-XPS-13.jpg",
     "category": "Computers",
     "price": 1299.99,
     "description": "Ultra-thin and lightweight laptop with a stunning 4K display.",
@@ -19,7 +19,7 @@
   {
     "product_id": 102,
     "product_title": "MacBook Air M2",
-    "product_image": "https://example.com/macbook-air-m2.jpg",
+    "product_image": "https://i.ibb.co.com/fYVYngXD/Mac-Book-Air-M2.jpg",
     "category": "Computers",
     "price": 1199.99,
     "description": "Sleek and powerful laptop with Apple's M2 chip.",
@@ -36,7 +36,7 @@
   {
     "product_id": 103,
     "product_title": "iPhone 15 Pro",
-    "product_image": "https://example.com/iphone-15-pro.jpg",
+    "product_image": "https://i.ibb.co.com/YBhdXNRZ/Apple-i-Phone-15-pro.jpg",
     "category": "Phones",
     "price": 999.0,
     "description": "The latest iPhone with A17 Bionic chip and advanced camera system.",
@@ -53,7 +53,7 @@
   {
     "product_id": 104,
     "product_title": "Samsung Galaxy S23 Ultra",
-    "product_image": "https://example.com/galaxy-s23-ultra.jpg",
+    "product_image": "https://i.ibb.co.com/mCCX2f9X/Samsung-Galaxy-S23-Ultra.jpg",
     "category": "Phones",
     "price": 1199.99,
     "description": "Flagship Android phone with a 200MP camera and S Pen support.",
@@ -70,7 +70,7 @@
   {
     "product_id": 105,
     "product_title": "Samsung Galaxy Watch 6",
-    "product_image": "https://example.com/galaxy-watch-6.jpg",
+    "product_image": "https://i.ibb.co.com/fzp36pN8/Samsung-Galaxy-Watch-6.jpg",
     "category": "Smart Watches",
     "price": 299.99,
     "description": "A sleek and powerful smartwatch with health and fitness tracking.",
@@ -87,7 +87,7 @@
   {
     "product_id": 106,
     "product_title": "Apple Watch Series 8",
-    "product_image": "https://example.com/apple-watch-8.jpg",
+    "product_image": "https://i.ibb.co.com/zH0Kgs8n/Apple-Watch-Series-8.jpg",
     "category": "Smart Watches",
     "price": 399.99,
     "description": "Advanced smartwatch with ECG and blood oxygen monitoring.",
@@ -104,7 +104,7 @@
   {
     "product_id": 107,
     "product_title": "Anker 65W USB-C Charger",
-    "product_image": "https://example.com/anker-65w-charger.jpg",
+    "product_image": "https://i.ibb.co.com/8LWy9gB0/Anker-65-W-USB-C-Charger.jpg",
     "category": "Chargers",
     "price": 59.99,
     "description": "Compact and fast charger compatible with laptops and phones.",
@@ -121,7 +121,7 @@
   {
     "product_id": 108,
     "product_title": "Belkin 30W USB-C Charger",
-    "product_image": "https://example.com/belkin-30w-charger.jpg",
+    "product_image": "https://i.ibb.co.com/wh1zXtZn/Belkin-30-W-USB-C-Charger.jpg",
     "category": "Chargers",
     "price": 89.99,
     "description": "Fast and reliable charger for smartphones and tablets.",
@@ -138,7 +138,7 @@
   {
     "product_id": 109,
     "product_title": "RAVPower 20000mAh Power Bank",
-    "product_image": "https://example.com/ravpower-powerbank.jpg",
+    "product_image": "https://i.ibb.co.com/ZRXbzXTv/RAVPower-20000m-Ah-Power-Bank.jpg",
     "category": "Power Banks",
     "price": 76.99,
     "description": "High-capacity power bank with dual USB ports for fast charging.",
@@ -155,7 +155,7 @@
   {
     "product_id": 110,
     "product_title": "Anker PowerCore 10000mAh",
-    "product_image": "https://example.com/anker-powercore.jpg",
+    "product_image": "https://i.ibb.co.com/Mk97MBbC/Anker-Power-Core-10000m-Ah.jpg",
     "category": "Power Banks",
     "price": 90.99,
     "description": "Compact and lightweight power bank for on-the-go charging.",
@@ -172,7 +172,7 @@
   {
     "product_id": 111,
     "product_title": "HP Pavilion 15 Laptop",
-    "product_image": "https://example.com/hp-pavilion-15.jpg",
+    "product_image": "https://i.ibb.co.com/nsTN8wpT/HP-Pavilion-15-Laptop.jpg",
     "category": "Computers",
     "price": 799.99,
     "description": "Affordable and reliable laptop for everyday use.",
@@ -189,7 +189,7 @@
   {
     "product_id": 112,
     "product_title": "Google Pixel 7 Pro",
-    "product_image": "https://example.com/pixel-7-pro.jpg",
+    "product_image": "https://i.ibb.co.com/LmKS7RM/Google-Pixel-7-Pro.jpg",
     "category": "Phones",
     "price": 899.99,
     "description": "Google's flagship phone with an exceptional camera and Tensor G2 chip.",

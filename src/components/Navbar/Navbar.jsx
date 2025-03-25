@@ -6,7 +6,7 @@ import { FaRegHeart } from "react-icons/fa";
 const Navbar = () => {
   return (
     <nav>
-      <div className="navbar">
+      <div className="navbar lg:px-12">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +35,10 @@ const Navbar = () => {
               <Link to={"/dashboard"}>Dashboard</Link>
             </ul>
           </div>
-          <Link to={"/"} className="text-xl">
+          <Link
+            to={"/"}
+            className="transition duration-700 ease-in-out hover:scale-110 hover:font-medium text-xl"
+          >
             Gadget Heaven
           </Link>
         </div>

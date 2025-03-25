@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div className="text-center space-y-9 mt-7">
-      <h2 className="text-6xl font-bold">
+      <h2 className="text-6xl font-bold pt-6">
         Upgrade Your Tech Accessorize with Gadget Heaven Accessories
       </h2>
       <p className="font-normal">

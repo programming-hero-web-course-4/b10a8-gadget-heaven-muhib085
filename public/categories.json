@@ -1,22 +1,26 @@
 [
   {
     "id": 1,
-    "category": "Computers"
+    "category": "All Products"
   },
   {
     "id": 2,
-    "category": "Phones"
+    "category": "Computers"
   },
   {
     "id": 3,
-    "category": "Smart Watches"
+    "category": "Phones"
   },
   {
     "id": 4,
-    "category": "Chargers"
+    "category": "Smart Watches"
   },
   {
     "id": 5,
+    "category": "Chargers"
+  },
+  {
+    "id": 6,
     "category": "Power Banks"
   }
 ]

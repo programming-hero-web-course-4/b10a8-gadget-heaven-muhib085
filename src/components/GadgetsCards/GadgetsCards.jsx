@@ -9,14 +9,20 @@ const GadgetsCards = () => {
 
   const [gadgets, setGadgets] = useState([]);
   useEffect(() => {
-    const filteredGadgets = [...data].filter(
-      (gadget) => gadget.category === category
-    );
-    setGadgets(filteredGadgets);
+    if (category) {
+      const filteredGadgets = [...data].filter(
+        (gadget) => gadget.category === category
+      );
+      setGadgets(filteredGadgets);
+    } else if (category == "All Products") {
+      setGadgets(data);
+    } else {
+      setGadgets(data.slice(0, 8));
+    }
   }, [data, category]);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       {gadgets.map((gadget) => (
         <Card key={gadget.id} gadget={gadget}></Card>
       ))}
