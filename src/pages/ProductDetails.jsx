@@ -14,8 +14,11 @@ const ProductDetails = () => {
   const { id } = useParams();
 
   const data = useLoaderData();
+
   const [wishList, setWishList] = useState(false);
+
   const [gadget, setGadget] = useState({});
+
   const {
     product_title,
     product_image,
@@ -30,10 +33,8 @@ const ProductDetails = () => {
       (gadget) => gadget.product_id === parseInt(id)
     );
     setGadget(singleGadget);
-    console.log(singleGadget);
 
     const allLocalStorageData = getLocalStorage();
-    console.log(allLocalStorageData);
 
     const isExist = allLocalStorageData.find(
       (item) => item.product_id == singleGadget.product_id

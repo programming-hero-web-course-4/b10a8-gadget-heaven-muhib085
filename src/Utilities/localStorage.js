@@ -31,4 +31,11 @@ const addToWishList = (product) => {
   toast.success("This Gadget is Successfully added to your WishList!");
 };
 
-export { addToCard, getLocalStorage, addToWishList };
+const removeFromLocalStorage = (id) => {
+  const getItems = getLocalStorage();
+  const remaining = getItems.filter((item) => item.product_id != id);
+  localStorage.setItem("localStorageData", JSON.stringify(remaining));
+  toast.success("This Gadget is Successfully remove from your cartList!");
+};
+
+export { addToCard, getLocalStorage, addToWishList, removeFromLocalStorage };

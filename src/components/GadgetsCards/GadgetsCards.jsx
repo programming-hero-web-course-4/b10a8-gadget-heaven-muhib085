@@ -24,7 +24,7 @@ const GadgetsCards = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       {gadgets.map((gadget) => (
-        <Card key={gadget.id} gadget={gadget}></Card>
+        <Card key={gadget.product_id} gadget={gadget}></Card>
       ))}
     </div>
   );

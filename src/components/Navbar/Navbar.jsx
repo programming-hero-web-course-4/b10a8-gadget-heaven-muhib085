@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { LuShoppingCart } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa";
 
@@ -31,7 +31,6 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <Link to={"/"}>Home</Link>
-              <Link to={"/statistics"}>Statistics</Link>
               <Link to={"/dashboard"}>Dashboard</Link>
             </ul>
           </div>
@@ -44,9 +43,22 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-12">
-            <Link to={"/"}>Home</Link>
-            <Link to={"/statistics"}>Statistics</Link>
-            <Link to={"/dashboard"}>Dashboard</Link>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "underline decoration-double underline-offset-4" : ""
+              }
+              to="/"
+            >
+              Home
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive ? "underline decoration-double underline-offset-4" : ""
+              }
+              to="/dashboard"
+            >
+              Dashboard
+            </NavLink>
           </ul>
         </div>
         <div className="navbar-end lg:space-x-4">
